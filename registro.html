@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Registro</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<div id="navigation">
+				<a href="checkout.html" class="cart"></a>
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="cursos.html">Cursos</a>
+					</li>
+					<li>
+						<a href="sobre.html">Sobre nosotros</a>
+					</li>
+					<li>
+						<a href="clientes.html">Clientes</a>
+					</li>
+					<li class="selected">
+						<a href="registro.html">Registro</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="contents">
+			<div id="adbox">
+				<img src="images/banner2.jpg" height="300" alt="Img">
+			</div>
+			<div id="contact" class="body">
+				<h2>Registrate y se parte de Ethea</h2>
+				<div id="main">
+		<form action="conexion.php"  method="post">
+			
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        
+        <label for="curso">Curso:</label>
+        <select id="curso" name="curso" required>
+            <option value="Principiante">Principiante</option>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Avanzado">Avanzado</option>
+        </select><br><br>
+        
+        <button type="submit" name="enviar">Enviar</button>
+        <button type="submit" name="eliminar">Eliminar</button></form>
+   
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul class="navigation">
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="cursos.html">Cursos</a>
+					</li>
+					<li>
+						<a href="sobre.html">Sobre nosotros</a>
+					</li>
+					<li>
+						<a href="clientes.html">Clientes</a>
+					</li>
+					<li class="selected">
+						<a href="registro.html">Registro</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
